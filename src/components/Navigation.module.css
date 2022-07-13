@@ -1,0 +1,34 @@
+.navigationContainer {
+  position: fixed;
+  top: 0;
+}
+
+.navigationItems {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background: whitesmoke;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  z-index: -1;
+}
+
+.clickable {
+  color: dodgerblue;
+  cursor: pointer; 
+  user-select: none;
+}
+
+.clickable:hover {
+  color: rgb(6, 120, 235);
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
+
